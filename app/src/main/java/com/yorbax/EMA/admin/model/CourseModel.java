@@ -1,0 +1,1 @@
+package com.yorbax.EMA.admin.model;import java.io.Serializable;public class CourseModel implements Serializable {    public String id;    public String courseName;    public String creditHr;    public CourseModel(String id, String courseName, String creditHr) {        this.id = id;        this.courseName = courseName;        this.creditHr = creditHr;    }}

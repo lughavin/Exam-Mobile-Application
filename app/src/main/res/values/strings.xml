@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Exam Mobile Application</string>
+    <string name="login_txt"><b>Welcome </b>\nLogin to Continue</string>
+    <string name="signup_txt"><b>Student Sign-up </b>\nEnter Your Details Below</string>
+    <string name="forgotpass_txt"><b>Student Forgot Password </b>\nEnter Your Email Below</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="submited">Submitted</string>
+    <string name="see_results">See Results</string>
+    <string name="next">Next</string>
+
+</resources>

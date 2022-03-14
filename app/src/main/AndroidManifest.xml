@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yorbax.EMA">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EvaluationApp">
+        <activity android:name=".ResultsActivty"></activity>
+        <activity android:name=".ExaminationActivity" />
+        <activity android:name=".ExamListActivity" />
+        <activity android:name=".lecturer.activity.AddExam" />
+        <activity android:name=".lecturer.activity.ManageExam" />
+        <activity android:name=".lecturer.activity.DashboardLecturer" />
+        <activity android:name=".admin.activity.AddCourse" />
+        <activity android:name=".admin.activity.AddLecture" />
+        <activity android:name=".admin.activity.ManageActivity" />
+        <activity android:name=".admin.activity.DashboardAdmin" />
+        <activity android:name=".Auth.ForgotPasswordActivity" />
+        <activity android:name=".Auth.SignUpActivity" />
+        <activity android:name=".Auth.SignInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

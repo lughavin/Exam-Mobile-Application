@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "831018803914",
+    "project_id": "evaluation-application",
+    "storage_bucket": "evaluation-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831018803914:android:a5d712b6e26bd33a9a4a33",
+        "android_client_info": {
+          "package_name": "com.yorbax.evaluationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831018803914-uq5e8dk3av2m93flus14srad6c6brjjf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yorbax.evaluationapp",
+            "certificate_hash": "999ac76e8730c12becfb9729e45053f87e6eaf9a"
+          }
+        },
+        {
+          "client_id": "831018803914-vu5umpu6cpgi62vv4ffqpdton2giis34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlaZXchf6PX4S6nVLkqpZvDLuLBodO4GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831018803914-vu5umpu6cpgi62vv4ffqpdton2giis34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
